@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mjbackup-morningjoes", # Replace with your own username
-    version="1.0.0",
+    version="1.0.1",
     author="morningjoe",
     author_email="morningjoe@morningjoesoftware.com",
     description="Morning Joe Software Linux Server Backup System",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://www.morningjoesoftware.com",
-    download_url="https://github.com/morningjoesoftware/mjbackup/archive/v1.0.0.tar.gz",
+    download_url="https://github.com/morningjoesoftware/mjbackup/archive/v1.0.1.tar.gz",
     packages=setuptools.find_packages(),
     data_files=[('configs', ['conf/backup1.xml', 'conf/backup2.xml', 'conf/backup3.xml', 'conf/mjbackupConfig.xml', 'conf/mjbackupMysql.conf', 'conf/mjbackupPgsql.conf', 'conf/mjsync.conf']),
             ],
