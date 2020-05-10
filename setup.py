@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mjbackup-morningjoesoftware", # Replace with your own username
+    name="mjbackup-morningjoes", # Replace with your own username
     version="1.0.0",
     author="morningjoe",
     author_email="morningjoe@morningjoesoftware.com",
