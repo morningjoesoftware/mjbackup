@@ -11,7 +11,7 @@ setuptools.setup(
     description="Morning Joe Software Linux Server Backup System",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://www.morningjoesoftware.com,
     packages=setuptools.find_packages(),
     data_files=[('configs', ['conf/backup1.xml', 'conf/backup2.xml', 'conf/backup3.xml', 'conf/mjbackupConfig.xml', 'conf/mjbackupMysql.conf', 'conf/mjbackupPgsql.conf', 'conf/mjsync.conf']),
             ],
