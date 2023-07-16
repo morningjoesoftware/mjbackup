@@ -60,7 +60,7 @@ if __name__ == "__main__":
     if verbose.upper()=='TRUE':
         print('Executing '+sync_command)
     try:
-        #subprocess.call(sync_command,shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        subprocess.call(sync_command,shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         print('synced')
     except Exception as e:
         print("Error: "+str(e))
